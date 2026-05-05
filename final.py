@@ -36,7 +36,7 @@ cursor = conn.cursor()
 cursor.executescript('''
     CREATE TABLE IF NOT EXISTS products (
         id          INTEGER PRIMARY KEY AUTOINCREMENT,
-        name        TEXT UNIQUE NOT NULL,
+        name        TEXT UNIQUE NOT NULL,helloword
         price       REAL NOT NULL,
         stock       INTEGER DEFAULT 0,
         category    TEXT DEFAULT 'Uncategorized',
