@@ -1,0 +1,13 @@
+{
+    "products": [
+        {
+            "id": "e714cc94",
+            "name": "shami kabab",
+            "price": 500.0,
+            "stock": 40,
+            "category": "General",
+            "img_path": ""
+        }
+    ],
+    "transactions": []
+}
